@@ -1,0 +1,60 @@
+.set {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: red;
+}
+
+.ic {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ic img {
+    width: 32%;
+    margin-bottom: 10px;
+}
+
+.tb {
+    width: 32%;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tb button {
+    background: orange;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    border-radius: 2vw;
+}
+
+.tb img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.set h1 {
+    font-size: 45px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .left-side,
+    .right-side {
+        width: 100%;
+    }
+
+    .text-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
